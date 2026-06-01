@@ -1,0 +1,179 @@
+{
+	"camera_boyfriend": [
+		0,
+		0
+	],
+	"_editorMeta": {
+		"boyfriend": "mega",
+		"dad": "dad",
+		"gf": "gf"
+	},
+	"stageUI": "pixel",
+	"boyfriend": [
+		760,
+		93
+	],
+	"girlfriend": [
+		400,
+		130
+	],
+	"defaultZoom": 1.65,
+	"objects": [
+		{
+			"type": "gf"
+		},
+		{
+			"x": 548,
+			"y": 245,
+			"scale": [
+				1,
+				1
+			],
+			"image": "barbg",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sprite1",
+			"firstAnimation": "idle",
+			"antialiasing": false,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"animations": [
+				{
+					"loop": true,
+					"offsets": null,
+					"anim": "idle",
+					"fps": 7,
+					"name": "dfg",
+					"indices": []
+				}
+			],
+			"type": "animatedSprite"
+		},
+		{
+			"x": 548,
+			"y": 245,
+			"scale": [
+				1,
+				1
+			],
+			"image": "bartable",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sprite4",
+			"firstAnimation": "idle",
+			"antialiasing": false,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"animations": [
+				{
+					"loop": true,
+					"offsets": null,
+					"anim": "idle",
+					"fps": 7,
+					"name": "table",
+					"indices": []
+				}
+			],
+			"type": "animatedSprite"
+		},
+		{
+			"x": 548,
+			"y": 245,
+			"scale": [
+				1,
+				1
+			],
+			"image": "barsign",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sprite3",
+			"firstAnimation": "idle",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"animations": [
+				{
+					"loop": true,
+					"offsets": null,
+					"anim": "idle",
+					"fps": 7,
+					"name": "sign",
+					"indices": []
+				}
+			],
+			"type": "animatedSprite"
+		},
+		{
+			"x": 548,
+			"y": 245,
+			"scale": [
+				1,
+				1
+			],
+			"image": "barforeground",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sprite2",
+			"firstAnimation": "idle",
+			"antialiasing": false,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"animations": [
+				{
+					"loop": true,
+					"offsets": null,
+					"anim": "idle",
+					"fps": 7,
+					"name": "foreground",
+					"indices": []
+				}
+			],
+			"type": "animatedSprite"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		}
+	],
+	"camera_girlfriend": [
+		0,
+		0
+	],
+	"camera_speed": 0,
+	"directory": "",
+	"opponent": [
+		358,
+		-34
+	],
+	"camera_opponent": [
+		0,
+		0
+	],
+	"hide_girlfriend": false
+}

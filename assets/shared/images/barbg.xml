@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="barbg.png">
+	<!-- Created with Adobe Animate version 24.0.12.3 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dfg0000" x="23" y="23" width="400" height="400"/>
+	<SubTexture name="dfg0001" x="23" y="446" width="400" height="400"/>
+</TextureAtlas>
