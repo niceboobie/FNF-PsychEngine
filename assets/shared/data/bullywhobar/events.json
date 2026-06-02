@@ -1,6 +1,18 @@
 {
 	"events": [
 		[
+			69714.2857142858,
+			[
+				["Change Character", "gf", "nicebonie"]
+			]
+		],
+		[
+			124571.428571428,
+			[
+				["Play Animation", "drink", "gf"]
+			]
+		],
+		[
 			128214.285714286,
 			[
 				["Play Animation", "hey", "bf"],

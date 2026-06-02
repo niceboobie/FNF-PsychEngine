@@ -2400,6 +2400,7 @@ class PlayState extends MusicBeatState
 		if (goBackToMainMenu){
 			goBackToMainMenu = false;
 			MusicBeatState.switchState(new MainMenuState());
+			FlxG.sound.playMusic(Paths.music('freakyMenu'));
 			return;
 		}
 		//Should kill you if you tried to cheat
