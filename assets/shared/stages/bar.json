@@ -5,26 +5,26 @@
 	],
 	"_editorMeta": {
 		"boyfriend": "mega",
-		"dad": "dad",
+		"dad": "ap",
 		"gf": "gf"
 	},
-	"stageUI": "pixel",
-	"boyfriend": [
-		760,
-		93
-	],
 	"girlfriend": [
 		400,
 		130
 	],
-	"defaultZoom": 1.65,
+	"stageUI": "pixel",
+	"boyfriend": [
+		811,
+		102
+	],
+	"defaultZoom": 1.85,
 	"objects": [
 		{
 			"type": "gf"
 		},
 		{
 			"x": 548,
-			"y": 245,
+			"y": 250,
 			"scale": [
 				1,
 				1
@@ -57,7 +57,7 @@
 		},
 		{
 			"x": 548,
-			"y": 245,
+			"y": 250,
 			"scale": [
 				1,
 				1
@@ -90,7 +90,7 @@
 		},
 		{
 			"x": 548,
-			"y": 245,
+			"y": 250,
 			"scale": [
 				1,
 				1
@@ -102,7 +102,7 @@
 			"angle": 0,
 			"name": "sprite3",
 			"firstAnimation": "idle",
-			"antialiasing": true,
+			"antialiasing": false,
 			"flipY": false,
 			"scroll": [
 				1,
@@ -122,8 +122,14 @@
 			"type": "animatedSprite"
 		},
 		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
 			"x": 548,
-			"y": 245,
+			"y": 250,
 			"scale": [
 				1,
 				1
@@ -153,12 +159,6 @@
 				}
 			],
 			"type": "animatedSprite"
-		},
-		{
-			"type": "dad"
-		},
-		{
-			"type": "boyfriend"
 		}
 	],
 	"camera_girlfriend": [
@@ -168,8 +168,8 @@
 	"camera_speed": 0,
 	"directory": "",
 	"opponent": [
-		358,
-		-34
+		539,
+		105
 	],
 	"camera_opponent": [
 		0,

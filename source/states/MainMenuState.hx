@@ -25,10 +25,10 @@ class MainMenuState extends MusicBeatState
 
 	//Centered/Text options
 	var optionShit:Array<String> = [
-		'story_mode',
+		//'story_mode',
 		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
-		'credits'
+		//#if MODS_ALLOWED 'mods', #end
+		//'credits'
 	];
 
 	var leftOption:String = #if ACHIEVEMENTS_ALLOWED 'achievements' #else null #end;
@@ -293,23 +293,23 @@ class MainMenuState extends MusicBeatState
 				{
 					switch (option)
 					{
-						case 'story_mode':
-							MusicBeatState.switchState(new StoryMenuState());
+						//case 'story_mode':
+						//	MusicBeatState.switchState(new StoryMenuState());
 						case 'freeplay':
 							MusicBeatState.switchState(new FreeplayState());
 
-						#if MODS_ALLOWED
-						case 'mods':
-							MusicBeatState.switchState(new ModsMenuState());
-						#end
+						//#if MODS_ALLOWED
+						//case 'mods':
+							//MusicBeatState.switchState(new ModsMenuState());
+						//#end
 
-						#if ACHIEVEMENTS_ALLOWED
-						case 'achievements':
-							MusicBeatState.switchState(new AchievementsMenuState());
-						#end
+						//#if ACHIEVEMENTS_ALLOWED
+						//case 'achievements':
+							//MusicBeatState.switchState(new AchievementsMenuState());
+						//#end
 
-						case 'credits':
-							MusicBeatState.switchState(new CreditsState());
+						//case 'credits':
+						//	MusicBeatState.switchState(new CreditsState());
 						case 'options':
 							MusicBeatState.switchState(new OptionsState());
 							OptionsState.onPlayState = false;

@@ -1,0 +1,17 @@
+{
+	"events": [
+		[
+			128214.285714286,
+			[
+				["Play Animation", "nod", "bf"]
+			]
+		],
+		[
+			129500,
+			[
+				["Play Animation", "nodloop", "bf"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}
