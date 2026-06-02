@@ -5,6 +5,7 @@ import flixel.effects.FlxFlicker;
 import lime.app.Application;
 import states.editors.MasterEditorMenu;
 import options.OptionsState;
+import backend.Song;
 
 enum MainMenuColumn {
 	LEFT;
@@ -296,7 +297,11 @@ class MainMenuState extends MusicBeatState
 						//case 'story_mode':
 						//	MusicBeatState.switchState(new StoryMenuState());
 						case 'freeplay':
-							MusicBeatState.switchState(new FreeplayState());
+						PlayState.goBackToMainMenu = true;
+						PlayState.SONG = Song.loadFromJson('bullywhobar', 'bullywhobar');
+                        PlayState.isStoryMode = false;
+                        PlayState.storyDifficulty = 1;
+                        LoadingState.loadAndSwitchState(new PlayState());
 
 						//#if MODS_ALLOWED
 						//case 'mods':

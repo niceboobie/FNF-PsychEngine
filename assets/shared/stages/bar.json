@@ -5,26 +5,23 @@
 	],
 	"_editorMeta": {
 		"boyfriend": "mega",
-		"dad": "ap",
-		"gf": "gf"
+		"gf": "mista",
+		"dad": "ap"
 	},
 	"girlfriend": [
-		400,
-		130
+		657,
+		512
 	],
 	"stageUI": "pixel",
 	"boyfriend": [
 		811,
-		102
+		162
 	],
 	"defaultZoom": 1.85,
 	"objects": [
 		{
-			"type": "gf"
-		},
-		{
 			"x": 548,
-			"y": 250,
+			"y": 310,
 			"scale": [
 				1,
 				1
@@ -45,19 +42,19 @@
 			"alpha": 1,
 			"animations": [
 				{
-					"loop": true,
 					"offsets": null,
-					"anim": "idle",
+					"loop": true,
 					"fps": 7,
-					"name": "dfg",
-					"indices": []
+					"anim": "idle",
+					"indices": [],
+					"name": "dfg"
 				}
 			],
 			"type": "animatedSprite"
 		},
 		{
 			"x": 548,
-			"y": 250,
+			"y": 310,
 			"scale": [
 				1,
 				1
@@ -78,19 +75,22 @@
 			"alpha": 1,
 			"animations": [
 				{
-					"loop": true,
 					"offsets": null,
-					"anim": "idle",
+					"loop": true,
 					"fps": 7,
-					"name": "table",
-					"indices": []
+					"anim": "idle",
+					"indices": [],
+					"name": "table"
 				}
 			],
 			"type": "animatedSprite"
 		},
 		{
+			"type": "gf"
+		},
+		{
 			"x": 548,
-			"y": 250,
+			"y": 310,
 			"scale": [
 				1,
 				1
@@ -111,12 +111,12 @@
 			"alpha": 1,
 			"animations": [
 				{
-					"loop": true,
 					"offsets": null,
-					"anim": "idle",
+					"loop": true,
 					"fps": 7,
-					"name": "sign",
-					"indices": []
+					"anim": "idle",
+					"indices": [],
+					"name": "sign"
 				}
 			],
 			"type": "animatedSprite"
@@ -129,7 +129,7 @@
 		},
 		{
 			"x": 548,
-			"y": 250,
+			"y": 310,
 			"scale": [
 				1,
 				1
@@ -150,12 +150,12 @@
 			"alpha": 1,
 			"animations": [
 				{
-					"loop": true,
 					"offsets": null,
-					"anim": "idle",
+					"loop": true,
 					"fps": 7,
-					"name": "foreground",
-					"indices": []
+					"anim": "idle",
+					"indices": [],
+					"name": "foreground"
 				}
 			],
 			"type": "animatedSprite"
@@ -165,15 +165,15 @@
 		0,
 		0
 	],
-	"camera_speed": 0,
-	"directory": "",
 	"opponent": [
 		539,
-		105
+		165
 	],
+	"directory": "",
+	"camera_speed": 0,
+	"hide_girlfriend": false,
 	"camera_opponent": [
 		0,
 		0
-	],
-	"hide_girlfriend": false
+	]
 }

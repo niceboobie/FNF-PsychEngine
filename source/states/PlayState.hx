@@ -18,11 +18,11 @@ import lime.utils.Assets;
 import openfl.utils.Assets as OpenFlAssets;
 import openfl.events.KeyboardEvent;
 import haxe.Json;
-
 import cutscenes.DialogueBoxPsych;
 
 import states.StoryMenuState;
 import states.FreeplayState;
+import states.MainMenuState;
 import states.editors.ChartingState;
 import states.editors.CharacterEditorState;
 
@@ -73,6 +73,7 @@ import crowplexus.hscript.Printer;
 **/
 class PlayState extends MusicBeatState
 {
+	public static var goBackToMainMenu:Bool = false;
 	public static var STRUM_X = 42;
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
@@ -2394,8 +2395,13 @@ class PlayState extends MusicBeatState
 
 
 	public var transitioning = false;
-	public function endSong()
+	public function endSong():Void
 	{
+		if (goBackToMainMenu){
+			goBackToMainMenu = false;
+			MusicBeatState.switchState(new MainMenuState());
+			return;
+		}
 		//Should kill you if you tried to cheat
 		if(!startingSong)
 		{
@@ -2411,7 +2417,7 @@ class PlayState extends MusicBeatState
 			}
 
 			if(doDeathCheck()) {
-				return false;
+				return;
 			}
 		}
 
@@ -2444,7 +2450,7 @@ class PlayState extends MusicBeatState
 			if (chartingMode)
 			{
 				openChartEditor();
-				return false;
+				return;
 			}
 
 			if (isStoryMode)
@@ -2499,13 +2505,13 @@ class PlayState extends MusicBeatState
 				#if DISCORD_ALLOWED DiscordClient.resetClientID(); #end
 
 				canResync = false;
-				MusicBeatState.switchState(new FreeplayState());
+				MusicBeatState.switchState(new MainMenuState());
 				FlxG.sound.playMusic(Paths.music('freakyMenu'));
 				changedDifficulty = false;
 			}
 			transitioning = true;
 		}
-		return true;
+		return;
 	}
 
 	public function KillNotes() {
